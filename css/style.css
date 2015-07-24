@@ -1,0 +1,50 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.text-right {
+	text-align: right;
+}
+.title-super {
+	font-size: 50px;
+}
+.title-logo {
+	margin-top: 20px;
+}
+.hr-break {
+	  color: #BCBBBB;
+	  background-color: #BCBBBB;
+	  height: 3px;
+	  margin-top: 0;
+}
+.ninga {
+	margin-top: 10px;
+}
+.img {
+	max-width: 100%;
+}
+.h1 {
+	max-width: 200%;
+}
+.img-hand {
+	cursor: pointer; 
+}
+
+@media screen and (min-width: 450px) {
+  .head-right{
+    float: left;
+    text-align: right;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;  
+  }	
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+    float: left
+  }
+}
+
